@@ -26,7 +26,7 @@ console.log("URI de MongoDB:", process.env.MONGODB_URI); // Confirmación de la 
 
 // Configuración de CORS
 app.use(cors({
-    origin: 'https://final-front-4aqh.onrender.com',  // URL de tu front-end desplegado en Render
+    origin: 'http://localhost:10000',  // URL de tu front-end desplegado en Render
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type', 'Authorization']
   }));
